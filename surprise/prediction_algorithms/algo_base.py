@@ -7,7 +7,7 @@ inherit.
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-from .. import similarities as sims
+from ../similarities import similarities as sims
 from .predictions import PredictionImpossible
 from .predictions import Prediction
 from .optimize_baselines import baseline_als
